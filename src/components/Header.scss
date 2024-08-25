@@ -1,8 +1,8 @@
 @import "../sass/mixins";
 
 .headerContainer{
-    border: 2px solid red;
+    // border: 2px solid red;
     
-@include magicTree(center);
+@include magicTree(center,2rem,1rem);
 
 }

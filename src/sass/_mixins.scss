@@ -1,14 +1,22 @@
 
 
-@mixin magicTree ($justfy){
+@mixin magicTree ($justfy,$pad,$gap){
     
     display: flex;
     flex-wrap: wrap;
     justify-content: $justfy;
     align-items: center;
     text-align: center;
-    padding: 2rem;
+    padding: $pad;
     margin: auto;
-    gap: 1rem;
+    gap: $gap;
 
+}
+
+@mixin NbaLogo (){
+    background-image: url(../assets/nba-logo.png);
+    background-position: center;
+    background-size:auto;
+    background-repeat: repeat;
+    
 }
