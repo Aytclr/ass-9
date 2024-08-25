@@ -1,5 +1,5 @@
 
-
+import "./Player.scss"
 import React from 'react'
 
 const PlayerCard = ({name,img}) => {

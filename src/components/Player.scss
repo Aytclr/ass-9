@@ -1,0 +1,17 @@
+@import "../sass/mixins";
+
+.playerList{
+    border: 2px solid rgb(0, 4, 255);
+    width: 85%;
+    @include magicTree (center)
+}
+.playerCont{
+    width: 30%;
+    border: 2px solid red;
+    @include magicTree (center);
+
+
+img{
+    width: 70%;
+}
+} 
