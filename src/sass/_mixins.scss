@@ -1,0 +1,14 @@
+
+
+@mixin magicTree ($justfy){
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: $justfy;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    margin: auto;
+    gap: 1rem;
+
+}
