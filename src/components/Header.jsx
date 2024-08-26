@@ -11,6 +11,9 @@ const Header =()=>{
             <div className="nbaHeadline">
                 <h1 className="nbaHeadlineh1">NBA Legends</h1>
             </div>
+            <div className="input">
+                <input className="playerInput" type="text" placeholder="Player" />
+            </div>
             
         </div>
     )
