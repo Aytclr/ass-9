@@ -12,7 +12,7 @@ const Header =()=>{
                 <h1 className="nbaHeadlineh1">NBA Legends</h1>
             </div>
             <div className="input">
-                <input className="playerInput" type="text" placeholder="Player" />
+                <input className="playerInput" type="search" placeholder="Player" />
             </div>
             
         </div>

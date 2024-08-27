@@ -3,6 +3,9 @@ import PlayerCard from "./PlayerCard.jsx"
 
 const CardContainer = ({dataA}) => {
     // console.log(data);
+    
+
+
     return (
         <div className="playerList">
             {
